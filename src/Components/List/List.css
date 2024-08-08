@@ -1,0 +1,22 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  .todo-item input {
+    margin-right: 10px;
+  }
